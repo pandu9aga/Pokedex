@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "index.js",
     "start-dev": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js"
   },
@@ -23,6 +24,7 @@
     "webpack-merge": "^5.0.9"
   },
   "dependencies": {
+    "node-static": "^0.7.11",
     "regenerator-runtime": "^0.13.5"
   }
 }
