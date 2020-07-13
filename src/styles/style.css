@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(https://archive-media-1.nyafuu.org/vp/image/1542/91/1542915866340.jpg);
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 32px auto;
+}
+
+poke-list {
+    margin-top: 5px;
+    width: 100%;
+    padding: 100px;
+    display: block;
+}
+
+@media screen and (max-width: 550px){
+  poke-list {
+      padding: 50px;
+  }
+}
